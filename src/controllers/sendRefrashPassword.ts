@@ -26,6 +26,7 @@ const sendRefrashPassword: RequestHandler = async (
 
     const dataEmail = {
       to,
+      subject: 'Resetar senha',
       html: htmlContent,
     };
 
